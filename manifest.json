@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Time Tracker - Focus Mode",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "storage",
+        "background"
+    ],
+    "description": "Track and limit your time on distracting sites.",
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
+}

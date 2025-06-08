@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tab Time Tracker + Focus</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>Time.ly</h1>
+        <ul id="urlList"></ul>
+        <div id="focusSection">
+            <h3 style="margin-bottom:5px;">Focus Mode</h3>
+            <input type="text" id="siteInput" placeholder="https://www.youtube.com">
+            <input type="number" id="minutesInput" placeholder="Minutes" min="1">
+            <button id="saveLimitBtn">Set Limit</button>
+            <ul id="limitList"></ul>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

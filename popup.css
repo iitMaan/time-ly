@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+#container {
+    min-width: 360px;
+    max-width: 360px;
+    overflow-x: scroll;
+    margin: 20px auto;
+    padding: 0px 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #06afe7;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+li strong {
+    color: #333;
+    font-weight: bold;
+}
+
+#focusSection {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+#siteInput,
+#minutesInput,
+#saveLimitBtn {
+    width: 90%;
+    margin: 5px 0;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#saveLimitBtn {
+    background: #06afe7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#saveLimitBtn:hover {
+    background: #0286b9;
+}
+
+#limitList {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #888;
+}
+
+#limitList li {
+    border: none;
+    padding: 3px 0;
+    color: #d00;
+}
