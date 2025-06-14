@@ -1,13 +1,13 @@
 # ⏱️ Time-ly – Chrome Extension
 
-A lightweight productivity-focused Chrome extension that tracks the time spent on different websites and helps you stay focused by setting time limits per site.
+A lightweight productivity-focused Chrome extension that tracks the time spent on different websites and helps you limit site usage by setting time limits per site.
 
 ## 🔍 Features
 ⏳ Track Time Spent on each website (based on origin like https://www.youtube.com)
 
 📊 Daily Time Reset: Stats reset every new day automatically
 
-🚫 Focus Mode: Set a time limit for distracting sites (e.g., social media)
+🚫 Time Limmiter: Set a time limit for distracting sites (e.g., social media)
 
 🔒 Auto-Block: Automatically redirects to a “Blocked” screen when time limit is exceeded
 
